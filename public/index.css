@@ -1,0 +1,43 @@
+body{
+    background-color: #004bec;
+}
+#root{
+    background-color: #dedede;
+    /*min-height: 100vh;*/
+}
+.homePage-container{
+
+}
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.header{
+    background-color: aqua;
+    flex-basis: 100%;
+}
+.palette{
+    background-color: brown;
+    flex-basis: 25%;
+}
+.main{
+    /* flex-wrap: wrap;*/
+    flex-basis: 50%;
+    max-height: 80vh;
+    overflow: scroll;
+    margin-top: 40px;
+
+}
+.footer{
+    background-color: aqua;
+    flex-basis: 100%;
+}
+@media screen and (max-width: 800px){
+    .f-text{
+        /*background-color: #282c34;*/
+        /*color: #282c34;*/
+        font-size: 16px;
+    }
+}
